@@ -36,7 +36,19 @@ namespace Projeto_PEOO_3bi
         }
         public override string ToString()
         {
-            return base.ToString();
+            if (mensalidade <= 0)
+            {
+                return $"{nome} - {horarios} - nenhum valor inserido";
+            }
+            if (horarios == null)
+            {
+                return $"{nome} - nenhum horário inserido - R${mensalidade:00}";
+            }
+            if (nome == null)
+            {
+                return $"nenhum esporte inserido - {horarios} - R${mensalidade:00}";
+            }
+            return $"{nome} - {horarios} - R${mensalidade:00}";
         }
     }
 }

@@ -51,11 +51,11 @@ namespace Projeto_PEOO_3bi
             
             double soma = 0;
             foreach(double i in x){
-                soma += i;
-                double media = soma / 14;
-                return media;
+                soma += i;              
             }
-                
+            double media = soma / 14;
+            return $"MEDIA: R${media}";
+
         }
     }
 }
