@@ -7,11 +7,6 @@
         mc:Ignorable="d"
         Title="Academia/Esporte" Height="400" Width="250">
     <Grid>
-        <Border BorderBrush="Black" BorderThickness="1" HorizontalAlignment="Center" Height="315" Margin="0,59,0,0" VerticalAlignment="Top" Width="230"/>
-
-
-
-        <Border BorderBrush="Black" BorderThickness="1" HorizontalAlignment="Center" Height="49" Margin="0,10,0,0" VerticalAlignment="Top" Width="230"/>
 
 
 
