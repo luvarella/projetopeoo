@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Debora\\Source\\Repos\\luvarella\\projetopeoo\\Projeto PEOO 3bi\\Projeto PEOO 3bi\\Projeto PEOO 3bi.csproj": {}
+    "C:\\Users\\Debora\\source\\repos\\luvarella\\projetopeoo\\Projeto PEOO 3bi\\Projeto PEOO 3bi\\Projeto PEOO 3bi.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Debora\\Source\\Repos\\luvarella\\projetopeoo\\Projeto PEOO 3bi\\Projeto PEOO 3bi\\Projeto PEOO 3bi.csproj": {
+    "C:\\Users\\Debora\\source\\repos\\luvarella\\projetopeoo\\Projeto PEOO 3bi\\Projeto PEOO 3bi\\Projeto PEOO 3bi.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Debora\\Source\\Repos\\luvarella\\projetopeoo\\Projeto PEOO 3bi\\Projeto PEOO 3bi\\Projeto PEOO 3bi.csproj",
+        "projectUniqueName": "C:\\Users\\Debora\\source\\repos\\luvarella\\projetopeoo\\Projeto PEOO 3bi\\Projeto PEOO 3bi\\Projeto PEOO 3bi.csproj",
         "projectName": "Projeto PEOO 3bi",
-        "projectPath": "C:\\Users\\Debora\\Source\\Repos\\luvarella\\projetopeoo\\Projeto PEOO 3bi\\Projeto PEOO 3bi\\Projeto PEOO 3bi.csproj",
+        "projectPath": "C:\\Users\\Debora\\source\\repos\\luvarella\\projetopeoo\\Projeto PEOO 3bi\\Projeto PEOO 3bi\\Projeto PEOO 3bi.csproj",
         "packagesPath": "C:\\Users\\Debora\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Debora\\Source\\Repos\\luvarella\\projetopeoo\\Projeto PEOO 3bi\\Projeto PEOO 3bi\\obj\\",
+        "outputPath": "C:\\Users\\Debora\\source\\repos\\luvarella\\projetopeoo\\Projeto PEOO 3bi\\Projeto PEOO 3bi\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Debora\\AppData\\Roaming\\NuGet\\NuGet.Config",

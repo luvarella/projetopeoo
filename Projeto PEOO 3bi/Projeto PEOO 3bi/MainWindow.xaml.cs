@@ -41,21 +41,5 @@ namespace Projeto_PEOO_3bi
             list.ItemsSource = null;
             list.ItemsSource = x;
         }
-
-        private void Button_Click_1(object sender, RoutedEventArgs e)
-        {
-            if (k == 0) 
-            { MessageBox.Show("Não foi inserido nenhum valor.");
-                return;
-            }
-            
-            double soma = 0;
-            foreach(double i in x){
-                soma += i;              
-            }
-            double media = soma / 14;
-            return $"MEDIA: R${media}";
-
-        }
     }
 }

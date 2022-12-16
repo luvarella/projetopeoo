@@ -20,8 +20,7 @@
         <TextBox x:Name = "txt4" HorizontalAlignment="Left" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="104" Margin="125,86,0,0"/>
         <TextBlock HorizontalAlignment="Left" Height="15" Margin="19,109,0,0" TextWrapping="Wrap" Text="Valor:" VerticalAlignment="Top" Width="50" RenderTransformOrigin="0.547,1.114"/>
         <TextBox x:Name = "txt5" HorizontalAlignment="Left" Margin="19,125,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="94"/>
-        <Button Content="Inserir" HorizontalAlignment="Left" Height="18" Margin="125,125,0,0" VerticalAlignment="Top" Width="42" Click="Button_Click"/>
-        <Button Content="Total" HorizontalAlignment="Left" Height="18" Margin="187,125,0,0" VerticalAlignment="Top" Width="42" Click="Button_Click_1"/>
+        <Button Content="Inserir" HorizontalAlignment="Left" Height="18" Margin="125,125,0,0" VerticalAlignment="Top" Width="104" Click="Button_Click"/>
         <ListBox Name = "list" HorizontalAlignment="Left" Height="206" Margin="19,148,0,0" VerticalAlignment="Top" Width="210"/>
 
 

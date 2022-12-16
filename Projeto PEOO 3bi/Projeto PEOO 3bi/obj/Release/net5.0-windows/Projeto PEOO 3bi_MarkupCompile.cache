@@ -4,11 +4,11 @@
 winexe
 C#
 .cs
-C:\Users\Debora\Source\Repos\luvarella\projetopeoo\Projeto PEOO 3bi\Projeto PEOO 3bi\obj\Debug\net5.0-windows\
+C:\Users\Debora\Source\Repos\luvarella\projetopeoo\Projeto PEOO 3bi\Projeto PEOO 3bi\obj\Release\net5.0-windows\
 Projeto_PEOO_3bi
 none
 false
-TRACE;DEBUG;NET;NET5_0;NETCOREAPP
+TRACE;RELEASE;NET;NET5_0;NETCOREAPP
 C:\Users\Debora\Source\Repos\luvarella\projetopeoo\Projeto PEOO 3bi\Projeto PEOO 3bi\App.xaml
 11407045341
 
