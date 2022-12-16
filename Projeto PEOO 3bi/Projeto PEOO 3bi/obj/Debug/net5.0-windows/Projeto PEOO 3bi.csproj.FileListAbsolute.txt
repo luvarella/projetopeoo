@@ -1,0 +1,22 @@
+C:\Users\Debora\source\repos\luvarella\projetopeoo\Projeto PEOO 3bi\Projeto PEOO 3bi\bin\Debug\net5.0-windows\Projeto PEOO 3bi.exe
+C:\Users\Debora\source\repos\luvarella\projetopeoo\Projeto PEOO 3bi\Projeto PEOO 3bi\bin\Debug\net5.0-windows\Projeto PEOO 3bi.deps.json
+C:\Users\Debora\source\repos\luvarella\projetopeoo\Projeto PEOO 3bi\Projeto PEOO 3bi\bin\Debug\net5.0-windows\Projeto PEOO 3bi.runtimeconfig.json
+C:\Users\Debora\source\repos\luvarella\projetopeoo\Projeto PEOO 3bi\Projeto PEOO 3bi\bin\Debug\net5.0-windows\Projeto PEOO 3bi.runtimeconfig.dev.json
+C:\Users\Debora\source\repos\luvarella\projetopeoo\Projeto PEOO 3bi\Projeto PEOO 3bi\bin\Debug\net5.0-windows\Projeto PEOO 3bi.dll
+C:\Users\Debora\source\repos\luvarella\projetopeoo\Projeto PEOO 3bi\Projeto PEOO 3bi\bin\Debug\net5.0-windows\Projeto PEOO 3bi.pdb
+C:\Users\Debora\source\repos\luvarella\projetopeoo\Projeto PEOO 3bi\Projeto PEOO 3bi\obj\Debug\net5.0-windows\Projeto PEOO 3bi.csproj.AssemblyReference.cache
+C:\Users\Debora\source\repos\luvarella\projetopeoo\Projeto PEOO 3bi\Projeto PEOO 3bi\obj\Debug\net5.0-windows\MainWindow.g.cs
+C:\Users\Debora\source\repos\luvarella\projetopeoo\Projeto PEOO 3bi\Projeto PEOO 3bi\obj\Debug\net5.0-windows\App.g.cs
+C:\Users\Debora\source\repos\luvarella\projetopeoo\Projeto PEOO 3bi\Projeto PEOO 3bi\obj\Debug\net5.0-windows\Projeto PEOO 3bi_MarkupCompile.cache
+C:\Users\Debora\source\repos\luvarella\projetopeoo\Projeto PEOO 3bi\Projeto PEOO 3bi\obj\Debug\net5.0-windows\Projeto PEOO 3bi_MarkupCompile.lref
+C:\Users\Debora\source\repos\luvarella\projetopeoo\Projeto PEOO 3bi\Projeto PEOO 3bi\obj\Debug\net5.0-windows\MainWindow.baml
+C:\Users\Debora\source\repos\luvarella\projetopeoo\Projeto PEOO 3bi\Projeto PEOO 3bi\obj\Debug\net5.0-windows\Projeto PEOO 3bi.g.resources
+C:\Users\Debora\source\repos\luvarella\projetopeoo\Projeto PEOO 3bi\Projeto PEOO 3bi\obj\Debug\net5.0-windows\Projeto PEOO 3bi.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Debora\source\repos\luvarella\projetopeoo\Projeto PEOO 3bi\Projeto PEOO 3bi\obj\Debug\net5.0-windows\Projeto PEOO 3bi.AssemblyInfoInputs.cache
+C:\Users\Debora\source\repos\luvarella\projetopeoo\Projeto PEOO 3bi\Projeto PEOO 3bi\obj\Debug\net5.0-windows\Projeto PEOO 3bi.AssemblyInfo.cs
+C:\Users\Debora\source\repos\luvarella\projetopeoo\Projeto PEOO 3bi\Projeto PEOO 3bi\obj\Debug\net5.0-windows\Projeto PEOO 3bi.csproj.CoreCompileInputs.cache
+C:\Users\Debora\source\repos\luvarella\projetopeoo\Projeto PEOO 3bi\Projeto PEOO 3bi\obj\Debug\net5.0-windows\Projeto PEOO 3bi.dll
+C:\Users\Debora\source\repos\luvarella\projetopeoo\Projeto PEOO 3bi\Projeto PEOO 3bi\obj\Debug\net5.0-windows\refint\Projeto PEOO 3bi.dll
+C:\Users\Debora\source\repos\luvarella\projetopeoo\Projeto PEOO 3bi\Projeto PEOO 3bi\obj\Debug\net5.0-windows\Projeto PEOO 3bi.pdb
+C:\Users\Debora\source\repos\luvarella\projetopeoo\Projeto PEOO 3bi\Projeto PEOO 3bi\obj\Debug\net5.0-windows\Projeto PEOO 3bi.genruntimeconfig.cache
+C:\Users\Debora\source\repos\luvarella\projetopeoo\Projeto PEOO 3bi\Projeto PEOO 3bi\obj\Debug\net5.0-windows\ref\Projeto PEOO 3bi.dll

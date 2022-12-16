@@ -34,5 +34,9 @@ namespace Projeto_PEOO_3bi
         {
             return mensalidade;
         }
+        public override string ToString()
+        {
+            return base.ToString();
+        }
     }
 }

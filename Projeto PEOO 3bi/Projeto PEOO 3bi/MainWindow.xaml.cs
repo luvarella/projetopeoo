@@ -1,6 +1,8 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Configuration;
 using System.Linq;
+using System.Runtime.Serialization;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows;
@@ -25,14 +27,35 @@ namespace Projeto_PEOO_3bi
             InitializeComponent();
         }
 
+        private Esporte[] x = new Esporte[14];
+        private int k;
+
         private void Button_Click(object sender, RoutedEventArgs e)
         {
-
+            Esporte y = new Esporte();
+            y.SetNome(txt3.Text);
+            y.SetHorarios(txt4.Text);
+            y.SetMensalidade(double.Parse(txt5.Text));
+            x[k] = y;
+            k++;
+            list.ItemsSource = null;
+            list.ItemsSource = x;
         }
 
         private void Button_Click_1(object sender, RoutedEventArgs e)
         {
-
+            if (k == 0) 
+            { MessageBox.Show("Não foi inserido nenhum valor.");
+                return;
+            }
+            
+            double soma = 0;
+            foreach(double i in x){
+                soma += i;
+                double media = soma / 14;
+                return media;
+            }
+                
         }
     }
 }
