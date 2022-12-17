@@ -20,7 +20,7 @@ namespace Projeto_PEOO_3bi
             if (e != "")
                 endereco = e;
         }
-       
+
         public void Inserir(Esporte e)
         {
             x[k] = e;
@@ -29,7 +29,9 @@ namespace Projeto_PEOO_3bi
         }
         public Esporte[] Listar()
         {
-            return x;
+            Esporte[] vetor = new Esporte[k];
+            Array.Copy(x, vetor, k);
+            return vetor;
         }
         public List<Esporte> Listar2()
         {
@@ -38,18 +40,22 @@ namespace Projeto_PEOO_3bi
         public double MediaMensalidade()
         {
             double soma = 0;
-            foreach (Esporte i in x)
+            for (int i = 0; i < k; i++)
+            {
+                soma += x[i].GetMensalidade();
+            }
+            /*foreach (Esporte i in x)
             {
                 soma += i.GetMensalidade();
-            }
-            double media = soma / 14;
+            }*/
+            double media = soma / k;
             return media;
         }
         public override string ToString()
         {
             if (k == 0)
             {
-               return "Não foi inserido nenhum valor.";
+                return "Não foi inserido nenhum valor.";
 
             }
             else
@@ -59,3 +65,4 @@ namespace Projeto_PEOO_3bi
         }
     }
 }
+

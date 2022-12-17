@@ -8,13 +8,13 @@ C:\Users\Debora\Source\Repos\luvarella\projetopeoo\Projeto PEOO 3bi\Projeto PEOO
 Projeto_PEOO_3bi
 none
 false
-TRACE;RELEASE;NET;NET5_0;NETCOREAPP
+TRACE;DEBUG;NET;NET5_0;NETCOREAPP
 C:\Users\Debora\Source\Repos\luvarella\projetopeoo\Projeto PEOO 3bi\Projeto PEOO 3bi\App.xaml
 11407045341
 
-71334235780
-386511515088
+51519829440
+193-1891726104
 MainWindow.xaml;
 
-True
+False
 

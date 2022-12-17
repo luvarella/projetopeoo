@@ -27,30 +27,36 @@ namespace Projeto_PEOO_3bi
             InitializeComponent();
         }
 
-        private Esporte[] x = new Esporte[14];
-        private int k;
 
+
+        Academia a;
+        private void clique(object sender, RoutedEventArgs e)
+        {
+            a = new Academia(txt1.Text, txt2.Text);
+        }
         private void Button_Click(object sender, RoutedEventArgs e)
         {
             Esporte y = new Esporte();
             y.SetNome(txt3.Text);
             y.SetHorarios(txt4.Text);
             y.SetMensalidade(double.Parse(txt5.Text));
-            x[k] = y;
-            k++;
-        }
-
-        private void clique(object sender, RoutedEventArgs e)
-        {
-            foreach (Esporte z in x)
-            {
-                caixa.Text += $"{z.ToString()}\n";
-            }
+            a.Inserir(y);
         }
 
         private void clique2(object sender, RoutedEventArgs e)
         {
-            Academia a = new Academia(txt1.Text, txt2.Text);
+            /*for(int i = 0; i < k; i++)
+            {
+                caixa.Text += $"{x[i].ToString()}\n";
+            }*/
+            foreach (Esporte z in a.Listar())
+            {
+                caixa.Text += $"{z.ToString()}\n";
+            }
+            caixa.Text += $"A mensalidade média foi de {a.MediaMensalidade()}";
+
+
         }
     }
 }
+

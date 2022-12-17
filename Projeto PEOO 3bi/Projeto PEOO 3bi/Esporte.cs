@@ -28,7 +28,7 @@ namespace Projeto_PEOO_3bi
         }
         public string GetHorarios()
         {
-            return horarios; 
+            return horarios;
         }
         public double GetMensalidade()
         {
@@ -52,3 +52,4 @@ namespace Projeto_PEOO_3bi
         }
     }
 }
+
