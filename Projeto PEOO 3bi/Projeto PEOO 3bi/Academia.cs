@@ -13,6 +13,13 @@ namespace Projeto_PEOO_3bi
         private Esporte[] x = new Esporte[14];
         private int k;
         private List<Esporte> lista = new List<Esporte>();
+        public Academia(string n, string e)
+        {
+            if (n != "")
+                nome = n;
+            if (e != "")
+                endereco = e;
+        }
        
         public void Inserir(Esporte e)
         {
@@ -31,28 +38,24 @@ namespace Projeto_PEOO_3bi
         public double MediaMensalidade()
         {
             double soma = 0;
-            foreach (double i in x)
+            foreach (Esporte i in x)
             {
-                soma += i;
+                soma += i.GetMensalidade();
             }
             double media = soma / 14;
-            /*return $"MEDIA: R${media}";*/
+            return media;
         }
         public override string ToString()
         {
             if (k == 0)
             {
-               MessageBox.Show("Não foi inserido nenhum valor.");
+               return "Não foi inserido nenhum valor.";
 
             }
-
-            double soma = 0;
-            foreach (double i in x)
+            else
             {
-                soma += i;
+                return $"A academia {nome} está localizada em {endereco}.";
             }
-            double media = soma / 14;
-            return $"MEDIA: R${media}"; 
         }
     }
 }

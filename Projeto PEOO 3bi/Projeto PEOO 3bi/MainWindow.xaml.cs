@@ -38,8 +38,19 @@ namespace Projeto_PEOO_3bi
             y.SetMensalidade(double.Parse(txt5.Text));
             x[k] = y;
             k++;
-            list.ItemsSource = null;
-            list.ItemsSource = x;
+        }
+
+        private void clique(object sender, RoutedEventArgs e)
+        {
+            foreach (Esporte z in x)
+            {
+                caixa.Text += $"{z.ToString()}\n";
+            }
+        }
+
+        private void clique2(object sender, RoutedEventArgs e)
+        {
+            Academia a = new Academia(txt1.Text, txt2.Text);
         }
     }
 }

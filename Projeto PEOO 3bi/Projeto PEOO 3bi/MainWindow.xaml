@@ -14,16 +14,16 @@
         <TextBlock HorizontalAlignment="Left" Height="15" Margin="19,15,0,0" TextWrapping="Wrap" Text="Nome:" VerticalAlignment="Top" Width="50" RenderTransformOrigin="0.547,1.114"/>
         <TextBox x:Name = "txt1" HorizontalAlignment="Left" Margin="19,31,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="94"/>
         <TextBlock HorizontalAlignment="Left" Height="15" Margin="125,15,0,0" TextWrapping="Wrap" Text="Endereço:" VerticalAlignment="Top" Width="62"/>
-        <TextBlock HorizontalAlignment="Left" Height="15" Margin="19,70,0,0" TextWrapping="Wrap" Text="Esporte:" VerticalAlignment="Top" Width="50" RenderTransformOrigin="0.547,1.114"/>
-        <TextBox x:Name = "txt3" HorizontalAlignment="Left" Margin="19,86,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="94"/>
-        <TextBlock HorizontalAlignment="Left" Height="15" Margin="125,70,0,0" TextWrapping="Wrap" Text="Horário:" VerticalAlignment="Top" Width="62"/>
-        <TextBox x:Name = "txt4" HorizontalAlignment="Left" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="104" Margin="125,86,0,0"/>
-        <TextBlock HorizontalAlignment="Left" Height="15" Margin="19,109,0,0" TextWrapping="Wrap" Text="Valor:" VerticalAlignment="Top" Width="50" RenderTransformOrigin="0.547,1.114"/>
-        <TextBox x:Name = "txt5" HorizontalAlignment="Left" Margin="19,125,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="94"/>
-        <Button Content="Inserir" HorizontalAlignment="Left" Height="18" Margin="125,125,0,0" VerticalAlignment="Top" Width="104" Click="Button_Click"/>
-        <ListBox Name = "list" HorizontalAlignment="Left" Height="206" Margin="19,148,0,0" VerticalAlignment="Top" Width="210"/>
-
-
+        <TextBlock HorizontalAlignment="Left" Height="15" Margin="19,81,0,0" TextWrapping="Wrap" Text="Esporte:" VerticalAlignment="Top" Width="50" RenderTransformOrigin="0.547,1.114"/>
+        <TextBox x:Name = "txt3" HorizontalAlignment="Left" Margin="20,102,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="94"/>
+        <TextBlock HorizontalAlignment="Left" Height="15" Margin="125,81,0,0" TextWrapping="Wrap" Text="Horário:" VerticalAlignment="Top" Width="62"/>
+        <TextBox x:Name = "txt4" HorizontalAlignment="Left" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="104" Margin="125,102,0,0"/>
+        <TextBlock HorizontalAlignment="Left" Height="15" Margin="20,125,0,0" TextWrapping="Wrap" Text="Valor:" VerticalAlignment="Top" Width="50" RenderTransformOrigin="0.547,1.114"/>
+        <TextBox x:Name = "txt5" HorizontalAlignment="Left" Margin="20,146,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="94"/>
+        <Button Content="Inserir" HorizontalAlignment="Left" Height="18" Margin="125,146,0,0" VerticalAlignment="Top" Width="47" Click="Button_Click"/>
+        <Button Content="Listar" HorizontalAlignment="Left" Height="18" Margin="177,146,0,0" VerticalAlignment="Top" Width="52" Click="clique2"/>
+        <Button Content="Criar" HorizontalAlignment="Left" Height="18" Margin="96,54,0,0" VerticalAlignment="Top" Width="52" Click="clique"/>
+        <TextBox Name = "caixa"  HorizontalAlignment="Center" Height="205" Margin="0,169,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="208" IsReadOnly="True"/>
 
     </Grid>
 </Window>
